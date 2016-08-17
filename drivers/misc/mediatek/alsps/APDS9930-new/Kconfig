@@ -1,0 +1,8 @@
+
+config MTK_APDS9930_NEW
+	bool "APDS9930_NEW for MediaTek package"
+	default n
+
+config NUBIA_APDS9930_NEW_ALS_CONT_VALUE
+	bool "Enable APDS9930_NEW als continuous value"
+	default n

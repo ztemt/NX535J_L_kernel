@@ -1,0 +1,8 @@
+config MTK_SOUND_DRV
+  bool CONFIG_MTK_SOUND_DRV
+  default n
+  help
+    CONFIG_MTK_SOUND_DRV
+config SND_SOC_AK4376
+        tristate "SND_SOC_AK4376"
+

@@ -1,0 +1,27 @@
+config FINGERPRINT_GOODIX_GF_TEE
+  bool FINGERPRINT_GOODIX_GF_TEE
+  default n
+  help
+    Goodix Fingerprint chip GF516/GF318GF316M/GF516M/GF616M/GF318M TEE driver
+config FINGERPRINT_GOODIX_GF616
+  bool FINGERPRINT_GOODIX_GF616
+  default n
+  help
+    Goodix Fingerprint chip GF616/GF516/GF316/GF318
+
+config FINGERPRINT_GOODIX_GF516M
+  bool FINGERPRINT_GOODIX_GF516M
+  default n
+  help
+    Goodix Fingerprint chip GF316M/GF516M/GF616M/GF318M
+
+config NUBIA_SEC_SPI0
+	bool NUBIA_SEC_SPI0
+	default n
+	help
+		fingerprint spi config : spi0 if y.
+config FINGERPRINT_FPC_ISEE
+    bool FINGERPRINT_FPC_ISEE
+	default n
+	help
+	 This is fpc1022 fingerprints driver base on microtrust tee.
